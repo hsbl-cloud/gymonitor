@@ -42,12 +42,33 @@
         align-items: flex-end;
         justify-content: flex-end;
         // margin-top: 15vh;
+
+        .learn-more-button{
+            height: 32px;
+            width: 131px;
+            font-size: 16px;
+            font-family: 'Open Sans';
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            p{
+                margin: 0;
+            }
+            img {
+                width: 4.5px;
+                height: 9px;
+            }
+        }
     }
 
-    .learn-more-button{
-        height: 32px;
-        width: 131px;
-        font-size: 16px;
-        font-family: 'Open Sans';
+    .btn-clock-in{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        width: 130px;
+        height: 40px;
     }
+
 }

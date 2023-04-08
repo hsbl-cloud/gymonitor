@@ -1,7 +1,9 @@
 import React from "react"
 import moment from 'moment'
-import { Row, Col, Button } from 'react-bootstrap'
+import {  Button } from 'react-bootstrap'
 import { Input, Form } from "antd"
+import Vector from '../../assets/Vector.svg'
+import love from '../../assets/love.svg'
 import './index.scss'
 export default function ClockIn() {
     return (
@@ -36,12 +38,19 @@ export default function ClockIn() {
                     </Form.Item>
                 </Form>
 
-                <Button className="btn btn-primary"> Clock In</Button>
+                <Button className="btn btn-primary btn-clock-in"> 
+                <img src={love} alt="" />
+                Clock In
+                
+                </Button>
             </div>
 
             <div className="learn-more">
-                <div className="btn btn-outline-primary">
-                    learn more
+                <div className="learn-more-button btn btn-outline-primary">
+                    <p>
+                        learn more
+                    </p>
+                    <img src={Vector} alt="" />
                 </div>
             </div>
         </div>
