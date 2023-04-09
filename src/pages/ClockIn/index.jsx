@@ -24,16 +24,18 @@ export default function ClockIn() {
                 layout="vertical"
                 >
                     <Form.Item
-                    label="Name"
+                    // label="Name"
                     className="w-100"
                     >
+                        <p>Your Name</p>
                         <Input placeholder="Your Name" />
                     </Form.Item>
 
                     <Form.Item
                     className="w-100 d-flex justify-content-center flex-column align-items-center"
-                    label="Unit"
+                    // label="Unit"
                     >
+                        <p>Unit</p>
                         <Input className="w-100" placeholder="Your Unit" />
                     </Form.Item>
                 </Form>
