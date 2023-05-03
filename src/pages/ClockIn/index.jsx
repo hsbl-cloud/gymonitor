@@ -32,7 +32,7 @@ export default function ClockIn() {
                     </Form.Item>
 
                     <Form.Item
-                    className="w-100 d-flex justify-content-center flex-column align-items-center"
+                    className="w-100 "
                     // label="Unit"
                     >
                         <p>Unit</p>
